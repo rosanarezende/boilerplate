@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- LINK JAVASCRIPT E CSS VÃO AQUI -->
+  <link rel="stylesheet" href="style.css">
+
+  <title>Manipulação de DOM</title>
+</head>
+<body>
+
+  <header>
+    <h1>Manipulação de DOM</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Sem uso de eventos</h2>
+
+      <h3>Criar e adicionar elemento</h3>
+      <div id="criar-adicionar"></div>
+
+      <h3>Acessar elemento</h3>
+      <div id="acessar">
+        <p id="acessar-elemento">Esse elemento será acessado</p>
+      </div>
+
+      <h3>Remover elemento</h3>
+      <div id="remover">
+        <p id="remover-elemento">Esse elemento será removido</p>
+      </div>
+
+      <h3>Alterar elemento</h3>
+      <div id="alterar">
+        <p id="alterar-elemento">Esse elemento será alterado</p>
+      </div>
+    </section>
+
+    <section>
+      <h2>Com uso de eventos</h2>
+
+      <h3>onclick</h3>
+
+      <h4>Imprimir valor do input no console</h4>
+      <div>
+        <input type="text" id="input-imprimir">
+        <button id="imprimir">Imprimir</button>
+      </div>
+
+      <h4>Adicionar e remover elemento ao clicar no botão</h4>
+      <button id="adicionar">Adicionar</button>
+      <button id="remover">Remover</button>
+      <div id="adicionar-remover-elemento"></div>
+
+      <h3>onmouseout e onmouseover</h3>
+      
+      <h4>Alterar cor ao passar e retirar o mouse</h4>
+      <div id="altera-cor"></div>
+
+      <h3>addEventListener</h3>
+
+      <h4>Adicionar elemento na lista</h4>
+
+      <div>
+        <input type="text" id="input-adicionar">
+        <button id="adicionar">Adicionar</button>
+      </div>
+
+      <ul id="lista"></ul>
+        <li>Uva</li>
+        <li>Maçã</li>
+        <li>Abacaxi</li>
+      </ul>
+       
+    </section>
+  </main>
+
+  <footer>
+    <p>Boilerplate simples para aula de Manipulação de DOM, desenvolvido por <a href="https://github.com/rosanarezende" target="_blank">Rosana Rezende</a></p>
+  </footer>
+  
+  <!-- TAMBÉM POSSO COLOCAR O JS AQUI -->
+</body>
+</html>
