@@ -7,6 +7,7 @@
 
   <!-- LINK JAVASCRIPT E CSS VÃO AQUI -->
   <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 
   <title>Manipulação de DOM</title>
 </head>
@@ -20,13 +21,17 @@
     <section>
       <h2>Sem uso de eventos</h2>
 
-      <h3>Criar e adicionar elemento</h3>
-      <div id="criar-adicionar"></div>
-
       <h3>Acessar elemento</h3>
       <div id="acessar">
-        <p id="acessar-elemento">Esse elemento será acessado</p>
+        <p id="acessar-elemento-por-id">Esse elemento pode ser acessado pelo id</p>
+        <article class="acessar-elemento-por-classe">Esse elemento pode ser acessado pela classe</article>
+        <h5>Esse elemento pode ser acessado pelo nome da tag</h5>
+        <p id="acessar-elemento-por-seletor-id">Esse elemento pode ser acessado pelo seletor: id</p>
+        <article class="acessar-elemento-por-seletor-classe">Esse elemento pode ser acessado pelo seletor: classe</article>
       </div>
+
+      <h3>Criar e adicionar elemento</h3>
+      <div id="criar-adicionar"></div>
 
       <h3>Remover elemento</h3>
       <div id="remover">
@@ -66,7 +71,7 @@
 
       <div>
         <input type="text" id="input-adicionar">
-        <button id="adicionar">Adicionar</button>
+        <button id="adicionar-item">Adicionar</button>
       </div>
 
       <ul id="lista"></ul>
