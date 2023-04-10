@@ -1,4 +1,4 @@
-import { NoteList, NoteForm, NoteDetails, Header } from './components/withRoutes'
+import { NoteList, NoteForm, NoteDetails, Navbar } from './components/withRoutes'
 
 const AppWithRoutes = () => {
   return (
