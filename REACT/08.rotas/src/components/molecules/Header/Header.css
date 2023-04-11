@@ -1,0 +1,33 @@
+header {
+  display: flex;
+  align-items: center;
+  background-color: #646cff;
+  padding: 1rem 3.5rem;
+  margin-bottom: 0.5em;
+}
+
+header div {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  cursor: pointer;
+}
+
+header img {
+  width: 100%;
+  max-width: 100px;
+  padding-right: 2em;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+header .back {
+  border-radius: 50%;
+  padding: 0.5rem;
+  color: red;
+  font-weight: bold;
+}

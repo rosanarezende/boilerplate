@@ -1,0 +1,23 @@
+.Product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  margin-bottom: 1.6rem;
+  min-width: 10rem;
+  border: 1px solid #ccc;
+  padding: 1.2rem;
+}
+
+.Product .card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+.Product button {
+  padding: 1.2rem;
+  margin-top: 1rem;
+}
+
