@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": "def",
+      "name": "Produto 2",
+      "price": 20.20,
+      "description": "Descrição do produto 2",
+      "image": "https://random.imagecdn.app/151/151"
+    },
+    {
+      "id": "stu",
+      "name": "Produto 7",
+      "price": 70,
+      "description": "Descrição do produto 7",
+      "image": "https://random.imagecdn.app/156/156"
+    },
+    {
+      "id": "yz",
+      "name": "Produto 9",
+      "price": 90,
+      "description": "Descrição do produto 9",
+      "image": "https://random.imagecdn.app/158/158"
+    },
+    {
+      "id": "abc",
+      "name": "Produto 1",
+      "price": 10.25,
+      "description": "Descrição do produto 1",
+      "image": "https://random.imagecdn.app/150/150"
+    },
+    {
+      "id": "jkl",
+      "name": "Produto 4",
+      "price": 40,
+      "description": "Descrição do produto 4",
+      "image": "https://random.imagecdn.app/153/153"
+    },
+    {
+      "id": "mno",
+      "name": "Produto 5",
+      "price": 50,
+      "description": "Descrição do produto 5",
+      "image": "https://random.imagecdn.app/154/154"
+    },
+    {
+      "id": "pqr",
+      "name": "Produto 6",
+      "price": 60,
+      "description": "Descrição do produto 6",
+      "image": "https://random.imagecdn.app/155/155"
+    },
+    {
+      "id": "vwx",
+      "name": "Produto 8",
+      "price": 80.5,
+      "description": "Descrição do produto 8",
+      "image": "https://random.imagecdn.app/157/157"
+    }
+  ]
+}

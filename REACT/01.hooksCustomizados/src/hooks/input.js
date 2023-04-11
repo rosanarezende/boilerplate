@@ -1,0 +1,2 @@
+export const useInput = (initialValue) => {
+}

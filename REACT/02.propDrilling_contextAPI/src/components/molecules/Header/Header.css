@@ -1,0 +1,16 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 30px;
+}
+
+header.theme-white{
+  color: #213547;
+  background-color: #5555;
+}
+
+header.theme-black{
+  color: #ffffff;
+  background-color: #242424;
+}
